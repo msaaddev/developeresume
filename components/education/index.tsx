@@ -9,9 +9,9 @@ const Education = () => {
 			</h2>
 			<div className="font-light">
 				{education.map(value => (
-					<div key={value.id} className='first:mt-0 mt-2'>
+					<div key={value.id} className="first:mt-0 mt-2">
 						<div className="flex justify-between">
-							<p className='font-medium'>{value.university}</p>
+							<p className="font-medium">{value.university}</p>
 							<p>{value.location}</p>
 						</div>
 						<div className="flex justify-between">
