@@ -12,12 +12,14 @@ const Projects = () => {
 					{projects.map(task => (
 						<div className="space-x-2 flex" key={task.id}>
 							<span>•</span>
-							<li
-								className="inline-block"
-								dangerouslySetInnerHTML={{
-									__html: `${task.name}: ${task.desc}`
-								}}
-							/>
+							<div>
+								<span className='font-medium' dangerouslySetInnerHTML={{
+									__html: `${task.name}: `
+								}}/>
+								<span dangerouslySetInnerHTML={{
+									__html: `${task.desc}`
+								}} />
+							</div>
 						</div>
 					))}
 				</ul>

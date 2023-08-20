@@ -86,27 +86,27 @@ const userData: IData = {
 	projects: [
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard" style="font-weight: 500">Jobboard</a>`,
+			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
 			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
 		},
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard" style="font-weight: 500">Jobboard</a>`,
+			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
 			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
 		},
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard" style="font-weight: 500">Jobboard</a>`,
+			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
 			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
 		},
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard" style="font-weight: 500">Jobboard</a>`,
+			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
 			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
 		},
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard" style="font-weight: 500">Jobboard</a>`,
+			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
 			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
 		}
 	],
