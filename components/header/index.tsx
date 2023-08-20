@@ -9,12 +9,12 @@ const Header = () => {
 		const urlObj = {
 			urlWithHttps: '',
 			urlWithOutHttps: ''
-		}
+		};
 
 		if (httpsRegex.test(url)) {
 			urlObj.urlWithHttps = url;
 
-			const urlArr = url.split('')
+			const urlArr = url.split('');
 			urlObj.urlWithOutHttps = urlArr.splice(8, urlArr.length).join('');
 
 			console.log(urlObj);
@@ -49,7 +49,9 @@ const Header = () => {
 				</span>
 				<span>|</span>
 				<span className="text-blue-500">
-					<a href={linkedIn.urlWithHttps}>{linkedIn.urlWithOutHttps}</a>
+					<a href={linkedIn.urlWithHttps}>
+						{linkedIn.urlWithOutHttps}
+					</a>
 				</span>
 				<span>|</span>
 				<span className="text-blue-500">

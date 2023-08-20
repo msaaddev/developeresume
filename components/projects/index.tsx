@@ -13,12 +13,17 @@ const Projects = () => {
 						<div className="space-x-2 flex" key={task.id}>
 							<span>•</span>
 							<div>
-								<span className='font-medium' dangerouslySetInnerHTML={{
-									__html: `${task.name}: `
-								}}/>
-								<span dangerouslySetInnerHTML={{
-									__html: `${task.desc}`
-								}} />
+								<span
+									className="font-medium"
+									dangerouslySetInnerHTML={{
+										__html: `${task.name}: `
+									}}
+								/>
+								<span
+									dangerouslySetInnerHTML={{
+										__html: `${task.desc}`
+									}}
+								/>
 							</div>
 						</div>
 					))}
