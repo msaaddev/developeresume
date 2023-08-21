@@ -25,7 +25,6 @@ Once you have added your information, you can save the resume as **PDF**.
 
 [*Live demo of the resume*](https://developeresume.vercel.app/)
 
-
 <br>
 
 <img src="./assets/suitcase.png" width="10%" />
