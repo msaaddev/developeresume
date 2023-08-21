@@ -25,6 +25,8 @@ Once you have added your information, you can save the resume as **PDF**.
 
 [*Live demo of the resume*](https://developeresume.vercel.app/)
 
+[*Check out the sample resume*](https://github.com/msaaddev/developeresume/blob/main/assets/sample-resume.pdf)
+
 <br>
 
 <img src="./assets/suitcase.png" width="10%" />
