@@ -17,8 +17,6 @@ const Header = () => {
 			const urlArr = url.split('');
 			urlObj.urlWithOutHttps = urlArr.splice(8, urlArr.length).join('');
 
-			console.log(urlObj);
-
 			return urlObj;
 		}
 
